@@ -1,0 +1,19 @@
+.shop-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-banner img {
+  width: 800px;
+}
+
+@media only screen and (max-width: 480px) {
+  .shop-container {
+    flex-wrap: wrap;
+  }
+  .right-banner{
+      width: 100%;
+      text-align: center;
+  }
+}
