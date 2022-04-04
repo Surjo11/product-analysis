@@ -1,6 +1,7 @@
 import React from "react";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
+import ReviewButton from "../ReviewButton/ReviewButton";
 import Shop from "../Shop/Shop";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
           <Review key={review.id} review={review}></Review>
         ))}
       </div>
+      <ReviewButton></ReviewButton>
     </div>
   );
 };
