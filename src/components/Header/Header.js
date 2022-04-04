@@ -1,16 +1,17 @@
 import React from "react";
 import logo from "./logo.png";
-import "./Header.css"
+import "./Header.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded text-center dark:bg-gray-800">
       <div className="flex flex-wrap justify-between items-center">
-        <a href="#" className=" image flex items-center">
+        <Link to="#" className=" image flex items-center">
           <img src={logo} className="mr-3 h-7 sm:h-9" alt="Laptop_Logo" />
           <span className="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">
             Laptop Heaven
           </span>
-        </a>
+        </Link>
         <button
           data-collapse-toggle="mobile-menu"
           type="button"
@@ -47,45 +48,45 @@ const Header = () => {
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
-              <a
-                href="#"
+              <Link
+                to="/home"
                 className="block py-2 pr-4 pl-3 text-2xl  text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/reviews"
                 className="block py-2 pr-4 pl-3 text-2xl text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Reviews
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/dashboard"
                 className="block py-2 pr-4 pl-3 text-2xl  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Dashboard
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="blogs"
                 className="block py-2 pr-4 pl-3 text-2xl  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Blogs
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                to="/about"
                 className="block py-2 pr-4 pl-3 text-2xl  text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <button

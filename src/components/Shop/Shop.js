@@ -9,12 +9,11 @@ const Shop = () => {
           Get Your Laptop For Cheap
         </h1>
         <h3 className="text-xl lg:text-4xl font-semibold mb-5 dark:text-white">
-          Great Prices On Laptops
+          Asus Rog Strix
         </h3>
         <p className=" description text-xl mb-8 dark:text-white">
-          Welcome to our laptop heaven.Choose your laptop from here with a very
-          cheap price.We have multiple brand Laptops with top notch warranty
-          service.
+          Asus Rog Strix G15 G513QE | 2021 Model | 15.6” FHD 300Hz Display
+          Gaming Laptop ( Ryzen™ 7 5800H, 8GB, 512GB SSD, RTX3050Ti 4GB )
         </p>
         <button
           type="button"
