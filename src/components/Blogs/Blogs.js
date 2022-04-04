@@ -49,7 +49,11 @@ const Blogs = () => {
         >
           <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-  
+              Context Api is a global variable for react app that can be pass
+              around all the components.Its solve the problem of prop
+              drilling.Now with context api we can share data with multiple
+              components without prop drilling.It's an easier approach. Context API is introduced in
+              React 16.3.
             </p>
           </div>
         </div>
@@ -98,7 +102,7 @@ const Blogs = () => {
         >
           <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
             <p class="mb-2 text-gray-500 dark:text-gray-400">
-
+                Semantic tags describes its meaning and it helps for both(Browser and Developer).If we use semantic tags then it will easy to recognize what to do with that element.There are lot of semantic tags are here like header,p,footer,aside etc.Before semantic tags we are just use div tag for build a website.Semantic tags helps us to build a organize and meaning full website.
             </p>
           </div>
         </div>
