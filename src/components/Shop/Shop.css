@@ -1,10 +1,16 @@
 .shop-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-.left-banner img {
+.left-banner {
+  margin-left: 100px;
+}
+.description {
+  width: 80%;
+}
+.right-banner img {
   width: 800px;
 }
 
@@ -12,8 +18,14 @@
   .shop-container {
     flex-wrap: wrap;
   }
-  .right-banner{
-      width: 100%;
-      text-align: center;
+  .left-banner {
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+  }
+  .description{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
   }
 }

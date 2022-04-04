@@ -1,17 +1,17 @@
 import React from "react";
 import "./Shop.css";
-import image from "./asus-rog-strix.jpg";
+import image from "./asus-rog-strix.png";
 const Shop = () => {
   return (
-    <div className="container mx-auto shop-container">
-      <div className="right-banner">
-        <h1 className="text-2xl mt-3 lg:text-5xl lg:mb-3 font-bold">
+    <div className="shop-container dark:bg-gray-800">
+      <div className="left-banner">
+        <h1 className="text-2xl mt-3 lg:text-5xl font-bold dark:text-white">
           Get Your Laptop For Cheap
         </h1>
-        <h3 className="text-xl lg:text-4xl font-semibold text-center mb-5">
+        <h3 className="text-xl lg:text-4xl font-semibold mb-5 dark:text-white">
           Great Prices On Laptops
         </h3>
-        <p className=" text-xl w-3/4 mx-auto mb-8 ">
+        <p className=" description text-xl mb-8 dark:text-white">
           Welcome to our laptop heaven.Choose your laptop from here with a very
           cheap price.We have multiple brand Laptops with top notch warranty
           service.
@@ -31,7 +31,7 @@ const Shop = () => {
           Buy now
         </button>
       </div>
-      <div className="left-banner">
+      <div className="right-banner">
         <img src={image} />
       </div>
     </div>
