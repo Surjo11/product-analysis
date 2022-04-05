@@ -1,6 +1,7 @@
 # Welcome to Laptop Heaven 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##This project is my Project details: 
+-This a Laptop reviews based website
 
 ## Available Scripts
 

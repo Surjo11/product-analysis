@@ -51,7 +51,7 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 mt-10 dark:bg-gray-800 dark:border-gray-700">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 mt-10 h-screen">
       <div>
         <h1 className="text-center lg:text-3xl font-semibold text-purple-500">
           Investment <span className="text-sky-600"> VS </span>

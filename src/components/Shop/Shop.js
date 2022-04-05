@@ -3,7 +3,7 @@ import "./Shop.css";
 import image from "./asus-rog-strix.png";
 const Shop = () => {
   return (
-    <div className="shop-container dark:bg-gray-800">
+    <div className="shop-container">
       <div className="left-banner">
         <h1 className="text-2xl mt-3 lg:text-5xl font-bold dark:text-white">
           Get Your Laptop For Cheap

@@ -2,111 +2,37 @@ import React from "react";
 
 const Blogs = () => {
   return (
-    <div className="container mx-auto mt-28 ">
-      <div id="accordion-open" data-accordion="open">
-        <h2 id="accordion-open-heading-1">
-          <button
-            type="button"
-            class="flex justify-between items-center p-5 w-full font-medium text-left rounded-t-xl border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white"
-            data-accordion-target="#accordion-open-body-1"
-            aria-expanded="true"
-            aria-controls="accordion-open-body-1"
-          >
-            <span class="flex items-center">
-              <svg
-                class="mr-2 w-5 h-5 shrink-0"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>{" "}
-              What is Context Api?
-            </span>
-            <svg
-              data-accordion-icon=""
-              class="w-6 h-6 rotate-180 shrink-0"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-        </h2>
-        <div
-          id="accordion-open-body-1"
-          class=""
-          aria-labelledby="accordion-open-heading-1"
-        >
-          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">
-              Context Api is a global variable for react app that can be pass
-              around all the components.Its solve the problem of prop
-              drilling.Now with context api we can share data with multiple
-              components without prop drilling.It's an easier approach. Context API is introduced in
-              React 16.3.
-            </p>
-          </div>
-        </div>
-        <h2 id="accordion-open-heading-2">
-          <button
-            type="button"
-            class="flex justify-between items-center p-5 w-full font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
-            data-accordion-target="#accordion-open-body-2"
-            aria-expanded="false"
-            aria-controls="accordion-open-body-2"
-          >
-            <span class="flex items-center">
-              <svg
-                class="mr-2 w-5 h-5 shrink-0"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-              What is Symantec Tag?
-            </span>
-            <svg
-              data-accordion-icon=""
-              class="w-6 h-6 shrink-0"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </button>
-        </h2>
-        <div
-          id="accordion-open-body-2"
-          class="hidden"
-          aria-labelledby="accordion-open-heading-2"
-        >
-          <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
-            <p class="mb-2 text-gray-500 dark:text-gray-400">
-                Semantic tags describes its meaning and it helps for both(Browser and Developer).If we use semantic tags then it will easy to recognize what to do with that element.There are lot of semantic tags are here like header,p,footer,aside etc.Before semantic tags we are just use div tag for build a website.Semantic tags helps us to build a organize and meaning full website.
-            </p>
-          </div>
-        </div>
-      </div>
+    <div className="container mx-auto lg:mt-28 flex justify-center h-screen">
+      <ol class="relative border-gray-200 dark:border-gray-700">
+        <li class="mb-10 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+          <h3 class="text-4xl font-semibold text-gray-900 dark:text-white">
+            What is Context Api?
+          </h3>
+          <p class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400">
+            Context Api is a global variable for react app that can be pass
+            around all the components.Its solve the problem of prop drilling.Now
+            with context api we can share data with multiple components without
+            prop drilling.It's an easier approach. Context API is introduced in
+            React 16.3.
+          </p>
+        </li>
+        <li class="mb-10 ml-4">
+          <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+
+          <h3 class="text-4xl font-semibold text-gray-900 dark:text-white">
+            What is Semantic tags?
+          </h3>
+          <p class="text-xl font-normal text-gray-500 dark:text-gray-400">
+            Semantic tags describes its meaning and it helps for both(Browser
+            and Developer).If we use semantic tags then it will easy to
+            recognize what to do with that element.There are lot of semantic
+            tags are here like header,p,footer,aside etc.Before semantic tags we
+            are just use div tag for build a website.Semantic tags helps us to
+            build a organize and meaning full website.
+          </p>
+        </li>
+      </ol>
     </div>
   );
 };
