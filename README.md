@@ -1,5 +1,7 @@
 # Welcome to Laptop Heaven
 
+Live Site- [https://laptop-heaven-b81b11.netlify.app/](https://laptop-heaven-b81b11.netlify.app/)
+
 ## Project details down below:
 
 - This is a Laptop review based website.
