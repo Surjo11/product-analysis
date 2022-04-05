@@ -1,6 +1,11 @@
-# Welcome to Laptop Heaven 
+# Welcome to Laptop Heaven
 
-## Project details down below:  *This is a Laptop review based website. *This is made by React. *Added some reviews about Product. *Using React route,Custom hooks,Recharts and many more.
+## Project details down below:
+
+- This is a Laptop review based website.
+- This is made by React.
+- Added some reviews about Product.
+- Using React route,Custom hooks,Recharts and many more.
 
 ## Available Scripts
 
@@ -68,4 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # product-analysis-website-Surjo11
