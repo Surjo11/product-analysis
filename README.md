@@ -1,7 +1,6 @@
 # Welcome to Laptop Heaven 
 
-##This project is my Project details: 
--This a Laptop reviews based website
+## Project details down below:  *This is a Laptop review based website. *This is made by React. *Added some reviews about Product. *Using React route,Custom hooks,Recharts and many more.
 
 ## Available Scripts
 
